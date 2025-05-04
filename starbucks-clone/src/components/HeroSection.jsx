@@ -15,9 +15,9 @@ const HeroSection = () => {
         <button className="bg-green-700 text-white  px-6 py-2  items-center  font-semibold   rounded-full hover:bg-green-800 transition inline-flex w-fit">
           Join now
         </button>
-        <p className="text-emerald-900 mt-6 text-md mb-6 ">
+        <p className="text-black mt-6 text-md mb-6 ">
           It's even better{" "}
-          <a className="!text-emerald-950 !underline decoration-emerald-950 underline-offset-2">
+          <a className="text-black underline hover:no-underline">
             with the app
           </a>
         </p>

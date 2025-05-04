@@ -24,9 +24,11 @@ const GettingStartedSection = () => {
               </h3>
               <p>
                 To get started,{" "}
-                <span className="underline text-green-900">join now.</span>You
-                can also <br />
-                <span className="underline text-green-900">
+                <span className="text-green-900 cursor-pointer underline hover:no-underline">
+                  join now.
+                </span>
+                You can also <br />
+                <span className="text-green-900  cursor-pointer underline hover:no-underline">
                   {" "}
                   join in the app{" "}
                 </span>
@@ -48,7 +50,9 @@ const GettingStartedSection = () => {
                 <br /> some time and pay right through the <br />
                 app. You’ll collect Stars all ways.
                 <br />
-                <span className="underline text-green-900">Learn How</span>
+                <span className="text-green-900  cursor-pointer underline hover:no-underline">
+                  Learn how
+                </span>
               </p>
             </div>
           </li>

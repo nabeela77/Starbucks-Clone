@@ -22,7 +22,7 @@ const ExtrasSection = () => {
           <p>
             Not only can you earn free food, drinks and more, look forward to a
             birthday treat on us. <br />
-            <span className="underline text-green-900 mt-4 block">
+            <span className="underline hover:no-underline cursor-pointer text-green-900 mt-4 block">
               {" "}
               Learn more.{" "}
             </span>
@@ -39,7 +39,7 @@ const ExtrasSection = () => {
             Master the art of ordering ahead with saved favorites and payment
             methods.
             <br />
-            <span className="underline text-green-900 mt-4 block">
+            <span className="underline hover:no-underline cursor-pointer text-green-900 mt-4 block">
               {" "}
               Learn more.{" "}
             </span>
@@ -56,7 +56,7 @@ const ExtrasSection = () => {
             Earn Stars even quicker with Bonus Star challenges, Double Star Days
             and exciting games.
             <br />
-            <span className="underline  text-green-900 mt-4 block">
+            <span className="underline hover:no-underline cursor-pointer text-green-900 mt-4 block">
               {" "}
               Learn more.{" "}
             </span>
