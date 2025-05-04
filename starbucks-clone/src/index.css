@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "SoDoSans";
+  src: url("/fonts/SoDoSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+:root {
+  font-family: "SoDoSans", Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  /* font-weight: 500; */
+  /* color: #646cff; */
+  /* text-decoration: inherit; */
+}
+/* a:hover {
+  color: #000000;
+} */
+
+body {
+  margin: 0;
+  /* display: flex; */
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-size: 3.2em; */
+  line-height: 1.1;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  /* border-radius: 8px; */
+  /* border: 1px solid; */
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  /* background-color: #1a1a1a; */
+  cursor: pointer;
+  /* transition: border-color 0.25s; */
+}
+/* button:hover {
+  background-color: #eaeced4b;
+} */
+button:focus,
+button:focus-visible {
+  outline: 4px -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+    --bggyf: #f0f8f5;
+    --bggyfimg: #d5e9e2;
+    --bgtab: #1a754b;
+  }
+  a:hover {
+    cursor: pointer;
+  }
+  /* button {
+    background-color: #ffffff;
+  } */
+}
