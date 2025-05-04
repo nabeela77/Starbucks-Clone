@@ -9,7 +9,7 @@ const Navbar = () => {
           <img
             src="/starbucks-logo.png"
             alt="Starbucks Logo"
-            className="w-10 h-10"
+            className="w-10 h-10 cursor-pointer"
             aria-label="logo"
           />
           <ul className="flex font-bold space-x-6">
