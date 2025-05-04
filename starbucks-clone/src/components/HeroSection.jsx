@@ -4,7 +4,7 @@ const HeroSection = () => {
     <section className="w-full flex flex-col md:flex-row items-stretch justify-between px-0 py-0">
       {/* Text Content */}
       <div className="md:w-1/2 mb-10 md:mb-0 text-left  bg-amber-50/100 py-2 px-4 md:px-16 flex flex-col justify-center ">
-        <h1 className="text-emerald-900 text-2xl md:text-3xl font-bold mb-6 pt-10 leading-tight ">
+        <h1 className="text-emerald-900 md:text-5xl font-bold mb-6 pt-10 leading-tight ">
           It's a great day for <br />
           free coffee
         </h1>

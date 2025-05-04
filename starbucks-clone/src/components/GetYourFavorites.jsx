@@ -78,25 +78,32 @@ export default function GetYourFavorites() {
         {/* Active Tab Panel */}
         <div className="py-3 " style={{ backgroundColor: "var(--bggyfimg)" }}>
           <div className="md:flex justify-center items-center">
-            <div className="md:mr-7 md:w-1/2 relative mb-6 md:mb-0">
-              <div className="pb-[35.25%] float-right w-100 relative overflow-hidden ">
+            <div className="md:flex justify-start items-center space-x-4 p-4">
+              {/* Image Section */}
+              <div className="w-full max-w-xs aspect-[4/3] overflow-hidden mb-0">
+                {" "}
+                {/* Removed bottom margin */}
                 <img
                   src={rewards[activeTab].image}
                   alt={rewards[activeTab].title}
-                  className="absolute max-w-full  h-auto object-contain"
+                  className="w-full h-full object-contain"
                 />
               </div>
-            </div>
-            <div className=" px-0 md:w-1/2">
-              <h3
-                className="text-md !text-left font-semibold pb-3"
-                tabIndex="-1"
-              >
-                {rewards[activeTab].title}
-              </h3>
-              <p className="text-center md:text-left">
-                {rewards[activeTab].description}
-              </p>
+
+              {/* Text Section */}
+              <div className="md:w-1/2">
+                <h3
+                  className="text-3xl !text-left font-semibold pb-2"
+                  tabIndex="-1"
+                >
+                  {" "}
+                  {/* Reduced padding bottom */}
+                  {rewards[activeTab].title}
+                </h3>
+                <p className="text-center md:text-left">
+                  {rewards[activeTab].description}
+                </p>
+              </div>
             </div>
           </div>
         </div>

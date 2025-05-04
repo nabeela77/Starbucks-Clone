@@ -2,7 +2,7 @@ import React from "react";
 
 const ExtrasSection = () => {
   return (
-    <div className="px-4 mt-4 pb-20">
+    <div className="px-4 mt-4 pb-20 ">
       <div>
         <h1 className="font-black text-3xl pb-6">Endless Extras</h1>
         <p className="pb-10 text-center">

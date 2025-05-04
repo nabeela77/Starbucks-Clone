@@ -1,4 +1,5 @@
 import React from "react";
+import { MapPinIcon } from "@heroicons/react/24/solid";
 
 const Navbar = () => {
   return (
@@ -21,7 +22,13 @@ const Navbar = () => {
 
         {/* Buttons */}
         <div className="flex items-center space-x-4">
-          <a></a>
+          <span className="flex flex-row mr-6 cursor-pointer hover:text-green-900 space-x-1   font-bold pt-0">
+            <a>
+              {" "}
+              <MapPinIcon className="w-5 h-5  items-start space-x-1 mr-2" />
+            </a>{" "}
+            {"  "}Find a store
+          </span>
           <button className="text-sm border border-black rounded-4xl font-semibold hover:text-black">
             Sign in
           </button>
